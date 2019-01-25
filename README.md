@@ -1,16 +1,16 @@
 Emacs - bowser
 ==============
-Emacs package for selecting and browsing urls
+Emacs package for selecting and browsing urls.
 
 Copyright and License
 ---------------------
 Copyright (C) 2015-2019  Free Software Foundation, Inc.
 
-Author: Ernst M. van der Linden <ernst.vanderlinden@ernestoz.com>
-URL: https://github.com/ernstvanderlinden/bowser.el
-Version: 1.0.0
-Package-Requires: ((ivy) (url-util))
-Keywords: convenience
+Author: Ernst M. van der Linden <ernst.vanderlinden@ernestoz.com>\
+URL: https://github.com/ernstvanderlinden/bowser.el\
+Version: 1.0.0\
+Package-Requires: ((ivy) (url-util))\
+Keywords: convenience\
 
 This file is part of GNU Emacs.
 
@@ -29,10 +29,10 @@ see <http://www.gnu.org/licenses/>.
 
 Install
 -------
-#### clone repo
+#### Clone repo
 As this package is not on melpa (yet), clone this repo and use ```package-install-file``` to install **bowser**. If you prefer, you can use [quelpa](https://github.com/quelpa/quelpa) as well.
 
-#### init.el
+#### Emacs startup
 To enable **bowser** on Emacs startup, add the following to your init.el:
 
 ```elisp
