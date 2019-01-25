@@ -7,7 +7,7 @@ Copyright and License
 Copyright (C) 2015-2019  Free Software Foundation, Inc.
 
 Author: Ernst M. van der Linden <ernst.vanderlinden@ernestoz.com> \
-URL: https://github.com/ernstvanderlinden/bowser.el \
+URL: https://github.com/ernstvanderlinden/bowser \
 Version: 1.0.0 \
 Package-Requires: ((ivy) (url-util)) \
 Keywords: convenience
