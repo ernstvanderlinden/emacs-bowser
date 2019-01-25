@@ -66,13 +66,13 @@ If `integer' prefix argument ARG is provided, `bowser' will skip `ivy'
 url selection and auto-select the url from `bowser-list'.  Calling
 `bowser' on a region, will set the search text of search-enabled urls."
 (interactive "P")
-  (if (not arg)
-      (ivy-read "Bowser...ROAR! : "
-                bowser-list
-                :action 'bowser-browse-url)
-    (bowser-browse-url
-     (nth (1- (prefix-numeric-value arg))
-          bowser-list))))
+  (if arg
+      (bowser-browse-url
+       (nth (1- (prefix-numeric-value arg))
+            bowser-list))
+    (ivy-read "Bowser...ROAR! : "
+              bowser-list
+              :action 'bowser-browse-url)))
 
 (defun bowser-browse-url (x)
   "Browse a bowser url provided as X."
