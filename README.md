@@ -1,6 +1,6 @@
 Emacs - bowser
 ==============
-Emacs package for selecting and browsing urls.
+Emacs package to select and browse urls.
 
 Copyright and License
 ---------------------
