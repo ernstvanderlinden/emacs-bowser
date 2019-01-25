@@ -10,7 +10,7 @@ Author: Ernst M. van der Linden <ernst.vanderlinden@ernestoz.com> \
 URL: https://github.com/ernstvanderlinden/bowser.el \
 Version: 1.0.0 \
 Package-Requires: ((ivy) (url-util)) \
-Keywords: convenience \
+Keywords: convenience
 
 This file is part of GNU Emacs.
 
