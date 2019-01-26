@@ -30,7 +30,7 @@ see <http://www.gnu.org/licenses/>.
 Install
 -------
 #### Clone
-As this package is not on melpa (yet), clone this repo and use ```package-install-file``` to install **bowser**. If you prefer, you can use [quelpa](https://github.com/quelpa/quelpa) as well.
+As this package is not on [Melpa](https://melpa.org) (yet), clone this repo and call ```package-install-file``` or simply add a ```load-path``` which points to **bowser** local repo. If you prefer, you could use [quelpa](https://github.com/quelpa/quelpa) as well.
 
 #### Startup
 To enable **bowser** on Emacs startup, add the following to your init.el:
