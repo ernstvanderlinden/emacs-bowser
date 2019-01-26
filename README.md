@@ -50,6 +50,6 @@ This package depends on [ivy](https://melpa.org/#/ivy), so please make sure that
 
 Usage
 -----
-- M-x bowser
-- C-u prefix to skip url selection and auto-select bowser url
+- M-x ```bowser```
+- ```C-u prefix``` to skip url selection and auto-select bowser url
 - Mark region to use as seach text for search-enabled bowser url
